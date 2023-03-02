@@ -1,0 +1,268 @@
+body {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
+    background-color: #f3f2ef;
+}
+
+/*  */
+.nav-div {
+    width: 100%;
+    background-color: white;
+    margin-bottom: 20px;
+    height: 50px;
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+}
+
+.topnav-right {
+    float: right;
+}
+
+.logo {
+    margin-right: 7px;
+    margin-top: 10%;
+}
+
+.search-div {
+    width: 280px;
+    height: 35px;
+    margin-top: 0.6%;
+    border-radius: 6px;
+}
+
+.search-div svg {
+    margin-left: 10px;
+}
+
+.search-div input {
+    height: 35px;
+    font-size: 0.8rem;
+    padding-left: 10px;
+    font-weight: 400;
+}
+
+.topnav-right a {
+    font-size: 0.7rem;
+    line-height: 1.3333;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(0, 0, 0, 0.7);
+    padding-left: 25px;
+    text-align: center;
+}
+
+/*  */
+.profile-container,
+.leftlinks-container,
+.start-post-container,
+.post,
+.right-div {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+/*  */
+.parent {
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.image1 {
+    position: relative;
+    top: -10px;
+    left: -10px;
+    width: 108%;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.image2 {
+    position: absolute;
+    top: 60%;
+    left: 38%;
+}
+
+/*  */
+.profile-name {
+    color: rgb(0, 0, 0, 0.9);
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    text-align: center;
+}
+
+.profile-desc {
+    margin-top: 4px !important;
+    color: rgb(0, 0, 0, 0.6);
+    font-size: 0.7rem;
+    line-height: 1.3333;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    text-align: center;
+}
+
+/*  */
+.profile-info,
+.profile-info-number {
+    line-height: 1.3333;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+.profile-info {
+    text-align: left;
+    color: rgb(0, 0, 0, 0.6);
+    font-size: 0.7rem;
+}
+
+.profile-info-number {
+    color: #0a66c2;
+    text-align: right;
+    margin-top: -20px;
+    padding-bottom: 5px;
+    font-size: 0.8rem;
+}
+
+.manage-network {
+    color: rgb(0, 0, 0, 0.9);
+    font-size: 0.7rem;
+    line-height: 1.3333;
+    font-weight: 600;
+    margin: -15px 0 10px;
+    padding: 0;
+    text-align: left;
+}
+
+/*  */
+.left-links {
+    color: #0a66c2;
+    font-weight: 600;
+    text-align: left;
+    font-size: 0.8rem;
+    line-height: 1.3333;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.discover-more {
+    color: rgb(0, 0, 0, 0.5);
+    text-align: center;
+    font-weight: 600;
+    vertical-align: middle;
+    font-size: 1rem;
+    line-height: 2rem;
+    margin-top: -10px;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+.start-post-input {
+    width: 100%;
+    margin-left: -20px;
+    padding-left: 10px;
+    height: 90%;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    font-size: 0.9rem;
+    padding-bottom: 3px;
+}
+
+.post-type-container {
+    margin-top: 5px;
+    margin-bottom: -20px;
+}
+
+.post-type-container p {
+    margin-left: 0.1rem;
+    color: rgb(0, 0, 0, 0.6);
+    font-weight: 600;
+    line-height: 2.8rem;
+    font-size: 0.84rem;
+}
+
+.post p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.post-username {
+    color: rgb(0, 0, 0, 0.9);
+    font-size: 0.9rem;
+    line-height: 1.42857;
+    font-weight: 600;
+}
+
+.post-desc {
+    color: rgb(0, 0, 0, 0.6);
+    line-height: 1.33333;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.add-feed {
+    color: rgb(0, 0, 0, 0.9);
+    font-size: 1.1rem;
+    line-height: 1.5;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.suggestion-name {
+    color: rgb(0, 0, 0, 0.9);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+
+.suggestion-desc {
+    color: rgb(0, 0, 0, 0.6);
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.links-div ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.links-div ul li {
+    float: left;
+    color: rgb(0, 0, 0, 0.4);
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.33333;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    margin: 1.6rem 2.4rem;
+    text-align: center !important;
+    clear: both !important;
+    font-size: 0.8rem;
+    line-height: 1.33333;
+    font-weight: 400;
+}

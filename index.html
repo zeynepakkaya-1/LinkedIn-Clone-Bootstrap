@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <div class="nav-div">
+        <div class="row offset-1">
+            <div class="col-sm-10">
+                <div class="topnav">
+                    <a href=""><svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                            data-supported-dps="24x24" fill="currentColor" width="40" height="40" focusable="false">
+                            <path
+                                d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a href="" class="search-div">
+                        <div class="search-div" style="background-color: #eef3f8;">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                                fill="gray" class="mercado-match" width="16" height="16" focusable="false">
+                                <path
+                                    d="M14.56 12.44L11.3 9.18a5.51 5.51 0 10-2.12 2.12l3.26 3.26a1.5 1.5 0 102.12-2.12zM3 6.5A3.5 3.5 0 116.5 10 3.5 3.5 0 013 6.5z">
+                                </path>
+                            </svg><input style="background-color: #eef3f8; border: none;" type="text"
+                                placeholder="Search">
+                        </div>
+                    </a>
+                    <div class="topnav-right">
+                        <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                data-supported-dps="24x24" width="24" fill="gray" height="24" focusable="false">
+                                <path
+                                    d="M23 9v2h-2v7a3 3 0 01-3 3h-4v-6h-4v6H6a3 3 0 01-3-3v-7H1V9l11-7 5 3.18V2h3v5.09z">
+                                </path>
+                            </svg>
+                            <p>Home</p>
+                        </a>
+                        <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                data-supported-dps="24x24" width="24" fill="gray" height="24" focusable="false">
+                                <path
+                                    d="M12 16v6H3v-6a3 3 0 013-3h3a3 3 0 013 3zm5.5-3A3.5 3.5 0 1014 9.5a3.5 3.5 0 003.5 3.5zm1 2h-2a2.5 2.5 0 00-2.5 2.5V22h7v-4.5a2.5 2.5 0 00-2.5-2.5zM7.5 2A4.5 4.5 0 1012 6.5 4.49 4.49 0 007.5 2z">
+                                </path>
+                            </svg>
+                            <p>My Network</p>
+                        </a>
+                        <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                data-supported-dps="24x24" width="24" fill="gray" height="24" focusable="false">
+                                <path
+                                    d="M17 6V5a3 3 0 00-3-3h-4a3 3 0 00-3 3v1H2v4a3 3 0 003 3h14a3 3 0 003-3V6zM9 5a1 1 0 011-1h4a1 1 0 011 1v1H9zm10 9a4 4 0 003-1.38V17a3 3 0 01-3 3H5a3 3 0 01-3-3v-4.38A4 4 0 005 14z">
+                                </path>
+                            </svg>
+                            <p>Jobs</p>
+                        </a>
+                        <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                data-supported-dps="24x24" width="24" fill="gray" height="24" focusable="false">
+                                <path
+                                    d="M16 4H8a7 7 0 000 14h4v4l8.16-5.39A6.78 6.78 0 0023 11a7 7 0 00-7-7zm-8 8.25A1.25 1.25 0 119.25 11 1.25 1.25 0 018 12.25zm4 0A1.25 1.25 0 1113.25 11 1.25 1.25 0 0112 12.25zm4 0A1.25 1.25 0 1117.25 11 1.25 1.25 0 0116 12.25z">
+                                </path>
+                            </svg>
+                            <p>Messaging</p>
+                        </a>
+                        <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                data-supported-dps="24x24" width="24" fill="gray" height="24" focusable="false">
+                                <path
+                                    d="M22 19h-8.28a2 2 0 11-3.44 0H2v-1a4.52 4.52 0 011.17-2.83l1-1.17h15.7l1 1.17A4.42 4.42 0 0122 18zM18.21 7.44A6.27 6.27 0 0012 2a6.27 6.27 0 00-6.21 5.44L5 13h14z">
+                                </path>
+                            </svg>
+                            <p>Notifications</p>
+                        </a>
+                        <a href=""><img class="rounded-circle" src="https://picsum.photos/id/65/30" alt="">
+                            <p>Me<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                                    fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                                    <path d="M8 11L3 6h10z" fill-rule="evenodd"></path>
+                                </svg></p>
+                        </a>
+                        <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                data-supported-dps="24x24" width="24" fill="gray" height="24" focusable="false">
+                                <path
+                                    d="M3 3h4v4H3zm7 4h4V3h-4zm7-4v4h4V3zM3 14h4v-4H3zm7 0h4v-4h-4zm7 0h4v-4h-4zM3 21h4v-4H3zm7 0h4v-4h-4zm7 0h4v-4h-4z">
+                                </path>
+                            </svg>
+                            <p>Work<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"
+                                    data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16"
+                                    height="16" focusable="false">
+                                    <path d="M8 11L3 6h10z" fill-rule="evenodd"></path>
+                                </svg></p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <!-- 3 & MY PROFILE & LINKS-->
+            <div class="col-sm-3">
+                <!-- PROFILE -->
+                <div class="profile-container">
+
+                    <div class="parent">
+                        <img class="image1" src="https://picsum.photos/id/10/2000" alt="">
+                        <div>
+                            <img class="image2 rounded-circle" src="https://picsum.photos/id/65/60" alt="">
+                        </div>
+
+                    </div>
+
+                    <p class="profile-name">Zeynep Akkaya</p>
+                    <p class="profile-desc">Computer & Industrial Engineering Student at Üsküdar Üniversitesi</p>
+                    <hr style="color: gray; width: 100%;">
+                    <p class="profile-info">Who's viewed your profile</p>
+                    <p class="profile-info-number">160</p>
+                    <p class="profile-info">Connections</p>
+                    <p class="profile-info-number">542</p>
+                    </p>
+                    <p class="manage-network">Manage your network</p>
+                    <hr style="color: gray; width: 100%; margin-top: 0; padding-top: 0; margin-bottom: 35px;">
+                    <p class="manage-network">
+                        <img src="img/bookmark.png" alt="" width="16" height="16" style="opacity: 0.6;"> My items
+                    </p>
+                </div>
+                <!-- LINKS -->
+                <div class="leftlinks-container">
+                    <p class="left-links">Groups</p>
+                    <p class="left-links">Events <svg style="color: rgba(0, 0, 0, 0.6); float: right;"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                            fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                            <path d="M14 9H9v5H7V9H2V7h5V2h2v5h5z"></path>
+                        </svg></p>
+                    <p class="left-links">Followed Hashtags</p>
+                    <hr>
+                    <p class="discover-more">Discover more</p>
+                </div>
+            </div>
+
+            <!-- START A POST & POSTS -->
+            <div class="col-sm-6">
+                <!-- START A POST -->
+                <div class="row start-post-container">
+                    <div class="col-sm-2">
+                        <img class="rounded-circle" src="https://picsum.photos/id/65/50" alt="">
+                    </div>
+                    <div class="col-sm-10">
+                        <input class="start-post-input" type="text" placeholder="Start a post">
+                    </div>
+
+                    <!-- POST TYPE -->
+                    <div class="row post-type-container">
+                        <div class="col-sm-3"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                data-supported-dps="24x24" fill="rgb(55,143,233)" class="mercado-match" width="24"
+                                height="24" focusable="false">
+                                <path
+                                    d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm1 13a1 1 0 01-.29.71L16 14l-2 2-6-6-4 4V7a1 1 0 011-1h14a1 1 0 011 1zm-2-7a2 2 0 11-2-2 2 2 0 012 2z">
+                                </path>
+                            </svg>
+                            <p style="display: inline-block;">Photo</p>
+                        </div>
+                        <div class="col-sm-3"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                data-supported-dps="24x24" fill="rgb(95,155,65)" class="mercado-match" width="24"
+                                height="24" focusable="false">
+                                <path
+                                    d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm-9 12V8l6 4z">
+                                </path>
+                            </svg>
+                            <p style="display: inline-block;">Video</p>
+                        </div>
+                        <div class="col-sm-3"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                data-supported-dps="24x24" fill="rgb(195,125,21)" class="mercado-match" width="24"
+                                height="24" focusable="false">
+                                <path
+                                    d="M3 3v15a3 3 0 003 3h12a3 3 0 003-3V3zm13 1.75A1.25 1.25 0 1114.75 6 1.25 1.25 0 0116 4.75zm-8 0A1.25 1.25 0 116.75 6 1.25 1.25 0 018 4.75zM19 18a1 1 0 01-1 1H6a1 1 0 01-1-1V9h14zm-5.9-3a1 1 0 00-1-1H12a3.12 3.12 0 00-1 .2l-1-.2v-3h3.9v1H11v1.15a3.7 3.7 0 011.05-.15 1.89 1.89 0 012 1.78V15a1.92 1.92 0 01-1.84 2H12a1.88 1.88 0 01-2-1.75 1 1 0 010-.25h1a.89.89 0 001 1h.1a.94.94 0 001-.88z">
+                                </path>
+                            </svg>
+                            <p style="display: inline-block;">Event</p>
+                        </div>
+                        <div class="col-sm-3"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                data-supported-dps="24x24" fill="rgb(225,103,70)" class="mercado-match" width="24"
+                                height="24" focusable="false">
+                                <path
+                                    d="M21 3v2H3V3zm-6 6h6V7h-6zm0 4h6v-2h-6zm0 4h6v-2h-6zM3 21h18v-2H3zM13 7H3v10h10z">
+                                </path>
+                            </svg>
+                            <p style="display: inline-block;">Write Article</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- SORT BY -->
+                <hr style="display: inline-block; width: 85%; margin-bottom: 1px;">
+                <p style="display: inline-block; font-size: 0.7rem; color: rgb(0, 0, 0, 0.4);">Sort by:
+                    <span style="font-weight: bold; color: rgba(0, 0, 0, 0.7);">Top</span><svg
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                        fill="rgba(0, 0, 0, 0.7)" class="mercado-match" width="16" height="16" focusable="false">
+                        <path d="M8 11L3 6h10z" fill-rule="evenodd"></path>
+                    </svg>
+                </p>
+
+                <!-- POST -->
+                <div class="post">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <img src="img/hack-logo.png" class="rounded-circle" width="55px" alt="">
+                        </div>
+                        <div class="col-sm-10">
+                            <p class="post-username">HackerRank</p>
+                            <p class="post-desc">1,226,235 followers</p>
+                            <p class="post-desc">3d . <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"
+                                    data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16"
+                                    height="16" focusable="false">
+                                    <path
+                                        d="M8 1a7 7 0 107 7 7 7 0 00-7-7zM3 8a5 5 0 011-3l.55.55A1.5 1.5 0 015 6.62v1.07a.75.75 0 00.22.53l.56.56a.75.75 0 00.53.22H7v.69a.75.75 0 00.22.53l.56.56a.75.75 0 01.22.53V13a5 5 0 01-5-5zm6.24 4.83l2-2.46a.75.75 0 00.09-.8l-.58-1.16A.76.76 0 0010 8H7v-.19a.51.51 0 01.28-.45l.38-.19a.74.74 0 01.68 0L9 7.5l.38-.7a1 1 0 00.12-.48v-.85a.78.78 0 01.21-.53l1.07-1.09a5 5 0 01-1.54 9z">
+                                    </path>
+                                </svg></p>
+                        </div>
+                    </div>
+                    <p style="font-size: 0.9rem; padding-top: 5px;">Have a great week ahead, folks!</p>
+                    <p style="font-size: 0.9rem; padding-top: 5px; padding-bottom: 5px; color: #0a66c2;">
+                        #mondaymotivation</p>
+                    <img class="w-100" src="img/post.jpeg" alt="">
+
+                    <!-- POST REACTIONS INFO -->
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img style="margin-right: -10px;"
+                                src="https://static.licdn.com/sc/h/8ekq8gho1ruaf8i7f86vd1ftt" alt="like"
+                                data-test-reactions-icon-type="LIKE" data-test-reactions-icon-theme="light">
+                            <img style="margin-right: -10px;"
+                                src="https://static.licdn.com/sc/h/cpho5fghnpme8epox8rdcds22" alt="love"
+                                data-test-reactions-icon-type="EMPATHY" data-test-reactions-icon-theme="light">
+                            <img style="margin-right: -10px;"
+                                src="https://static.licdn.com/sc/h/lhxmwiwoag9qepsh4nc28zus" alt="insightful"
+                                data-test-reactions-icon-type="INTEREST" data-test-reactions-icon-theme="light">
+                            <p
+                                style="display: inline-block; margin-left: 10px; font-size: 0.8rem; color: rgba(0, 0, 0, 0.6); margin-top: 3px;">
+                                4,292</p>
+                        </div>
+                        <div class="col-sm-5">
+                        </div>
+                        <div class="col-sm-4">
+                            <p style="font-size: 0.8rem; color: rgba(0, 0, 0, 0.6); margin-top: 5px;">13 comments . 118
+                                reposts</p>
+                        </div>
+                    </div>
+
+                    <hr style="color: rgba(0, 0, 0, 0.4);">
+
+                    <!-- POST REACTION BUTTONS -->
+                    <div class="row">
+                        <div class="col-sm" style="margin-left: 20px;">
+                            <img src="img/thumbs-up.png" width="24" height="24" alt="">
+                            <p
+                                style="display: inline-block; color: rgba(0, 0, 0, 0.6); font-weight: 600; font-size: 0.9rem;">
+                                Like</p>
+                        </div>
+                        <div class="col-sm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                data-supported-dps="24x24" fill="rgb(0,0,0,0.6)" width="24" height="24"
+                                focusable="false">
+                                <path
+                                    d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z">
+                                </path>
+                            </svg>
+                            <p
+                                style="display: inline-block; color: rgba(0, 0, 0, 0.6); font-weight: 600; font-size: 0.9rem;">
+                                Comment</p>
+                        </div>
+                        <div class="col-sm" style="margin-left: 25px;">
+                            <img src="img/repost.png" width="20" height="24" alt="">
+                            <p
+                                style="display: inline-block; color: rgba(0, 0, 0, 0.6); font-weight: 600; font-size: 0.9rem;">
+                                Repost</p>
+                        </div>
+                        <div class="col-sm"><svg style="margin-left: 15px;" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24" data-supported-dps="24x24" fill="rgba(0, 0, 0, 0.6)" width="20"
+                                height="24" focusable="false">
+                                <path d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z"></path>
+                            </svg>
+                            <p
+                                style="display: inline-block; color: rgba(0, 0, 0, 0.6); font-weight: 600; font-size: 0.9rem;">
+                                Send</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ADD TO YOUR FEED -->
+
+            <div class="col-sm-3">
+                <div class="right-div">
+                    <p class="add-feed">Add to your feed <img style="float: right; opacity: 0.6;" src="img/i.png"
+                            width="20" alt=""></p>
+
+                    <div class="row" style="margin-bottom: 15px;">
+                        <div class="col-sm-3">
+                            <img class="rounded-circle" src="https://picsum.photos/id/64/60" alt="">
+                        </div>
+                        <div class="col-sm-9">
+                            <p class="suggestion-name">Alexander Shustov</p>
+                            <p class="suggestion-desc">Software Test Engineer | Java | Selenium | TestNG | Junit | API |
+                                Cucumber BDD |...</p>
+                            <button
+                                style="opacity: 0.8; background-color: white; border-radius: 20px; width: 115px; height: 38px; border-color: rgba(0, 0, 0, 0.5);">
+                                <img src="img/plus.png" width="20" style="margin-top: -5px;" alt=""> Follow</button>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-bottom: 15px;">
+                        <div class="col-sm-3">
+                            <img class="rounded-circle" src="https://picsum.photos/id/669/60" alt="">
+                        </div>
+                        <div class="col-sm-9">
+                            <p class="suggestion-name">Luke Pamer</p>
+                            <p class="suggestion-desc">Frontend Developer | Student at Yildiz Technical University</p>
+                            <button
+                                style="opacity: 0.8; background-color: white; border-radius: 20px; width: 115px; height: 38px; border-color: rgba(0, 0, 0, 0.5);">
+                                <img src="img/plus.png" width="20" style="margin-top: -5px;" alt=""> Follow</button>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-bottom: 15px;">
+                        <div class="col-sm-3">
+                            <img class="rounded-circle" src="https://picsum.photos/id/6/60" alt="">
+                        </div>
+                        <div class="col-sm-9">
+                            <p class="suggestion-name">Eutah</p>
+                            <p class="suggestion-desc">Company . Information Technology and Services</p>
+                            <button
+                                style="opacity: 0.8; background-color: white; border-radius: 20px; width: 115px; height: 38px; border-color: rgba(0, 0, 0, 0.5);">
+                                <img src="img/plus.png" width="20" style="margin-top: -5px;" alt=""> Follow</button>
+                        </div>
+                    </div>
+                    <p style="color: rgba(0, 0, 0, 0.5); font-weight: 600;">View all recommendations<img
+                            src="img/right-arrow.png" width="20" style="opacity: 0.5; margin-left: 5px;" alt=""></p>
+                </div>
+
+                <div class="right-div">
+                    <img src="img/linkedin.png" class="w-100" alt="">
+                </div>
+
+                <div class="links-div">
+                    <div class="row offset-2">
+                        <ul>
+                            <li>About</li>
+                            <li>Accessibility</li>
+                            <li>Help Center</li>
+                            <li>Privacy & Terms<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"
+                                    data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16"
+                                    height="16" focusable="false">
+                                    <path d="M8 11L3 6h10z" fill-rule="evenodd"></path>
+                                </svg></li>
+                            <li>Ad Choices</li>
+                            <li>Business Services<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"
+                                    data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16"
+                                    height="16" focusable="false">
+                                    <path d="M8 11L3 6h10z" fill-rule="evenodd"></path>
+                                </svg></li>
+                            <li>Advertising</li>
+                            <li>Get the LinkedIn App</li>
+                            <li>More</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <footer>
+                    <p class="footer"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 14"
+                            data-supported-dps="56x14" fill="rgb(58,128,203)" class="mercado-match" width="56"
+                            height="14" focusable="false">
+                            <g>
+                                <path class="background-mercado"
+                                    d="M22.1 8.2l3.09 3.8h-2.44L20 8.51V12h-2V2h2v5.88L22.54 5h2.55zm-8-3.4A2.71 2.71 0 0011.89 6V5H10v7h2V8.73a1.74 1.74 0 011.66-1.93C14.82 6.8 15 7.94 15 8.73V12h2V8.29c0-2.2-.73-3.49-2.86-3.49zM32 8.66a4.22 4.22 0 010 .44h-5.25v.07a1.79 1.79 0 001.83 1.43 2.51 2.51 0 001.84-.69l1.33 1a4.31 4.31 0 01-3.25 1.29 3.49 3.49 0 01-3.7-3.75 3.58 3.58 0 013.76-3.65C30.44 4.8 32 6.13 32 8.66zm-1.86-.86a1.46 1.46 0 00-1.59-1.4 1.64 1.64 0 00-1.8 1.4zM2 2H0v10h6v-2H2zm36 0h2v10h-1.89v-.7a2.44 2.44 0 01-2 .9 3.41 3.41 0 01-3.31-3.7 3.36 3.36 0 013.3-3.7 2.62 2.62 0 011.9.7zm.15 6.5a1.63 1.63 0 00-1.62-1.85A1.76 1.76 0 0034.9 8.5a1.76 1.76 0 001.63 1.85 1.63 1.63 0 001.62-1.85zM8 1.8A1.27 1.27 0 006.75 3a1.25 1.25 0 002.5 0A1.27 1.27 0 008 1.8zM7 12h2V5H7zM56 1v12a1 1 0 01-1 1H43a1 1 0 01-1-1V1a1 1 0 011-1h12a1 1 0 011 1zM46 5h-2v7h2zm.25-2a1.25 1.25 0 00-2.5 0 1.25 1.25 0 002.5 0zM54 8.29c0-2.2-.73-3.49-2.86-3.49A2.71 2.71 0 0048.89 6V5H47v7h2V8.73a1.74 1.74 0 011.66-1.93C51.82 6.8 52 7.94 52 8.73V12h2z">
+                                </path>
+                            </g>
+                        </svg> LinkedIn Corporation © 2023</p>
+                </footer>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
